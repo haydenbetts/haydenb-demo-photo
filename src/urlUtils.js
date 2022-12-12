@@ -1,0 +1,1 @@
+define(["src/getUrl"],function(e){var t=function(e,t){var n;return require(["src/getUrl!"+e],function(e){n=e}),typeof t!="undefined"&&$.each(t,function(e,t){n+="&"+e+"="+t}),n};return{getResourceUrl:t}})
